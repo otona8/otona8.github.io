@@ -7,40 +7,41 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "广州"
+locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Lyzwr的个人主页"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Lyzwr"
-description              : &description "基础前端技术扎实，能配合团队做页面开发与改稿；上手快、愿意多学多做，夏季可全职实习，踏实靠谱，能快速融入岗位干活。"   
-url                      : "https://otona8.github.io"  # The base hostname & protocol for your site
-baseurl                  : ""  # the subpath of your site, e.g. "/blog"
-repository               : "otona8/otona8.github.io"
+name                     : &name "Your Name"
+description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://s41.ax1x.com/2026/05/19/pezloyq.jpg"
-  name             : "李中威"
-  telephone        : "13712718350"  
+  avatar           : "profile.png"
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "广州"
-  employer         : "广东生态工程职业学院"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "2932629083@qq.com"
+  email            : "none@example.org" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : #"https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -50,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "otona8"
+  github           : "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : #"bsky.app" # Replace this with you Bluesky username
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -79,8 +80,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  WeChat           : "鱼玖"
-    
+  zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
