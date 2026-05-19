@@ -13,9 +13,8 @@ title                    : "Lyzwr的个人主页"
 title_separator          : "-"
 name                     : &name "Lyzwr"
 description              : &description "基础前端技术扎实，能配合团队做页面开发与改稿；上手快、愿意多学多做，夏季可全职实习，踏实靠谱，能快速融入岗位干活。"   
-url                      : https://lyzwr.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://lyzwr.github.io"  # The base hostname & protocol for your site
+baseurl                  : ""  # the subpath of your site, e.g. "/blog"
 repository               : "lyzwr/lyzwr.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
